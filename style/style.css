@@ -30,6 +30,8 @@ html{
     font-family: 'DM Sans', sans-serif;
 }
 
+/* ---------------------------- HEADER -------------------------- */
+
 header {
     position: relative;
     display: flex;
@@ -104,11 +106,15 @@ header img {
     background-size: cover;
 }
 
+/* ---------------------------- MAIN -------------------------- */
+
 main{
     width: 100%;
     height: auto;
     background-color: var(--off-white);
 }
+
+/* ---------- IMAGE SECTION ------------- */
 
 .main-exchange-container {
     width: 100%;
@@ -151,6 +157,8 @@ main{
     line-height: 1.6rem;
     color: #757575;
 }
+
+/* ---------- TABLES SECTION ------------- */
 
 .main-tables-container {
     display: flex;
@@ -346,6 +354,8 @@ main{
     color: var(--warm-black);
 }
 
+/* ---------- PRODUCT DETAIL SECTION ------------- */
+
 .main-product-detail {
     position: relative;
     width: 100%;
@@ -390,6 +400,7 @@ main{
     color: #808080;
 }
 
+/* ---------- PRODUCT DETAIL - CARDS SECTION ------------- */
 .product-detail--card {
     width: 90%;
     min-width: 288px;
@@ -480,6 +491,7 @@ main{
     color: var(--just-white);
 }
 
+/* ---------- PLANS SECTION ------------- */
 .main-plans-container {
     width: 100%;
     min-width: 320px;
@@ -599,6 +611,7 @@ main{
     margin-left: 8px;
 }
 
+/* ------------------------------------- FOOTER ----------------------------------------- */
 footer {
     display: flex;
     width: 100%;
