@@ -169,6 +169,15 @@ main{
     scroll-snap-type: x proximity;
 }
 
+.main-tables-container::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+}
+
+.main-tables-container::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+
 .main-currency-table{
     width: 70%;
     scroll-snap-align: center;
@@ -532,6 +541,16 @@ main{
     padding: 0 16px;
 }
 
+.plans-container--slider::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+}
+
+.plans-container--slider::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+}
+  
+
 .plans-container--card{
     position: relative;
     scroll-snap-align: center;
@@ -539,7 +558,7 @@ main{
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: auto 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -568,6 +587,7 @@ main{
 }
 
 .plan-card--price {
+    position: relative;
     padding: 5px 0;
     font-family: "Inter", sans-serif;
     font-size: 5.2rem;
@@ -577,8 +597,11 @@ main{
 }
 
 .plan-card--price span {
+    position: absolute;
+    top: 14px;
+    left: 40px;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .plan-card--saving {
